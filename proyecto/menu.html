@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="es-Es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="menu.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap" rel="stylesheet">
+    <link rel="icon" href="IMG/logo.ico" type="image/x-icon">
+    <title>Sabores Del Sur</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img class="titulo" src="IMG/logo.png" alt="Logo">
+        </div>
+        <nav class="Indice">
+            <a href="proyectoinicio.html">Inicio</a>
+            <a href="proyectoplatostipicos.html">Platos Tipicos</a>
+            <a href="paginaconocenos.html">Conocenos</a>
+            <a href="menu.html">El Menú</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+        <h1 class="titulo-menu">PLATOS QUE SERVIMOS</h1>
+        <h2 class="platos-principales">PLATOS PRINCIPALES:</h2>
+        <hr>
+        <div class="carrusel-de-imagenes">
+            <div class="imagenes">
+                <img src="IMG/ceviche-peruano-de-pescado.jpg" alt="Imagen 1" style="width:100%">
+            </div>
+            <div class="imagenes">
+                <img src="IMG/boquerones-vinagre.jpg" alt="Imagen 2" style="width:100%">
+            </div>
+            <div class="imagenes">
+                <img src="IMG/arroz-con-pollo-peruvian-dish.jpg" alt="Imagen 3" style="width:100%">
+            </div>
+            <div class="imagenes">
+                <img src="IMG/paella.jpg" alt="Imagen 3" style="width:100%">
+            </div>
+            <div class="imagenes">
+                <img src="IMG/sopaseca.jpg" alt="Imagen 3" style="width:100%">
+            </div>
+            <a class="anterior" onclick="cambiarImagen(-1)">&#10094;</a>
+            <a class="siguiente" onclick="cambiarImagen(1)">&#10095;</a>
+        </div>
+        <br>
+        <div style="text-align:center">
+            <span class="punto" onclick="mostrarImagen(1)"></span>
+            <span class="punto" onclick="mostrarImagen(2)"></span>
+            <span class="punto" onclick="mostrarImagen(3)"></span>
+            <span class="punto" onclick="mostrarImagen(4)"></span>
+            <span class="punto" onclick="mostrarImagen(5)"></span>
+        </div>
+        <script src="menu.js"></script>
+        <main class="menu1">
+            <ol class="menu-lista" type="1">
+                <li>CEVICHE</li>
+                <li>BOQUERONES</li>
+                <li>ARROZ CON POLLO</li>
+                <li>PAELLA</li>
+                <li>SOPA SECA</li>
+            </ol>
+        </main>
+        <br>
+        <h2 class="platos-principales">PLATOS DE ENTRADA:</h2>
+        <hr>
+        <div class="caja">
+            <img src="IMG/Tortilla-de-Patata.jpg" alt="Imagen de ejemplo" class="imagen">
+            <div class="contenido">
+                <h2>TORTILLA DE PATATAS</h2>
+                <p>Una tortilla de patatas jugosa y tradicional, a veces con cebolla.</p>
+            </div>
+        </div>
+        <br>
+        <div class="caja">
+            <img src="IMG/gazpacho.jpg" alt="Gazpacho" class="imagen">
+            <div class="contenido">
+                <h2>GAZPACHO</h2>
+                <p>Una sopa fría de tomate y otras hortalizas, muy refrescante especialmente en verano.</p>
+            </div>
+        </div>
+        <br>
+        <div class="caja">
+            <img src="IMG/jamon-iberico.png" alt="Jamón Ibérico" class="imagen">
+            <div class="contenido">
+                <h2>JAMÓN IBÉRICO</h2>
+                <p>Lonchas finas de jamón curado, una auténtica delicia.</p>
+            </div>
+        </div>
+        <br>
+        <div class="caja">
+            <img src="IMG/queso-manchego.jpg" alt="Queso Manchego" class="imagen">
+            <div class="contenido">
+                <h2>QUESO MANCHEGO</h2>
+                <p>Un queso curado hecho con leche de oveja de la región de La Mancha.</p>
+            </div>
+        </div>
+        <br>
+        <h2 class="platos-principales">POSTRES:</h2>
+        <hr>
+        <main class="galeria1">
+            <section>
+                <img src="IMG/crema-catalana.jpg" alt="">
+            </section>
+            <section>
+                <img src="IMG/churros-con-chocolate.jpg" alt="">
+            </section>
+            <section>
+                <img src="IMG/flan.jpg" alt="">
+            </section>
+            <section>
+                <img src="IMG/tartadesantiago.jpg" alt="">
+            </section>
+        </main>
+        <div class="primera-galeria">
+            <p>CREMA CATALANA</p>
+            <p>CHURROS CON CHOCOLATE</p>
+            <p>FLAN</p>
+            <p>TARTA DE SANTIAGO</p>
+        </div>
+        <br>
+        <hr>
+        <h1 class="titulo-menu">TE DEJAMOS UNA RECETA..!!</h1>
+        <div class="lista-choritos">
+            <h1 class="titulo-menu">Choritos a la Chalaca</h1>
+            <ul>
+                <li><span class="highlight">Descripción:</span> Deliciosos mejillones servidos en su concha, acompañados
+                    de una fresca salsa criolla.</li>
+                <li><span class="highlight">Ingredientes principales:</span> Mejillones frescos, cebolla roja, tomate,
+                    maíz choclo, limón, ají limo, y cilantro.</li>
+                <li><span class="highlight">Origen:</span> Plato típico de la costa peruana, conocido por su frescura y
+                    sabor vibrante.</li>
+                <li><span class="highlight">Sabor:</span> Una combinación perfecta de acidez, picor y dulzura.</li>
+                <li><span class="highlight">Recomendación:</span> Ideal como entrada para una comida especial o como
+                    aperitivo en reuniones.</li>
+            </ul>
+        </div>
+        <div class="tabla">
+            <table>
+                <tr class="header">
+                    <th>Item</th>
+                    <th>Descripción de insumo</th>
+                    <th>Unidad compra</th>
+                    <th>Precio Promedio (€/.)</th>
+                    <th>Factor</th>
+                    <th>Unidad Costo</th>
+                    <th>Cantidad</th>
+                    <th>Costo (€/.)</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Choros</td>
+                    <td>und</td>
+                    <td>20.00</td>
+                    <td>24</td>
+                    <td>und</td>
+                    <td>24</td>
+                    <td>20.00</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Cebolla</td>
+                    <td>und</td>
+                    <td>3.50</td>
+                    <td>1.000</td>
+                    <td>und</td>
+                    <td>2</td>
+                    <td>0.01</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Tomate</td>
+                    <td>und</td>
+                    <td>3.50</td>
+                    <td>1.000</td>
+                    <td>und</td>
+                    <td>2</td>
+                    <td>0.01</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Limon</td>
+                    <td>gr</td>
+                    <td>5.20</td>
+                    <td>1.000</td>
+                    <td>gr</td>
+                    <td>50</td>
+                    <td>0.26</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Culantro</td>
+                    <td>gr</td>
+                    <td>2.50</td>
+                    <td>1.000</td>
+                    <td>gr</td>
+                    <td>40</td>
+                    <td>0.10</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Ajo</td>
+                    <td>gr</td>
+                    <td>3.90</td>
+                    <td>1.000</td>
+                    <td>gr</td>
+                    <td>5</td>
+                    <td>0.02</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>Apio</td>
+                    <td>gr</td>
+                    <td>5.70</td>
+                    <td>1.000</td>
+                    <td>gr</td>
+                    <td>2</td>
+                    <td>0.01</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>Sal</td>
+                    <td>gr</td>
+                    <td>2.00</td>
+                    <td>1.000</td>
+                    <td>gr</td>
+                    <td>10</td>
+                    <td>0.02</td>
+                </tr>
+                <tr class="total">
+                    <td colspan="7">Costo Total</td>
+                    <td>20.70</td>
+                </tr>
+            </table>
+            <div class="img-tabla">
+                <img src="IMG/choros-ala-chalaca.jpg" alt="Choritos a la Chalaca">
+            </div>
+        </div>
+
+        <footer>
+            <p>📍 Dirección: N-340a, 04629 Antas, Almería</p>
+            <p>☎️ Teléfono: +34 614 16 24 85</p>
+            <p>⏰ Horarios: Lunes a Domingo, 12:00 PM - 10:00 PM</p>
+            <p>"Sabores que unen culturas, tradición que deleita el paladar."</p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/people/Sabores-del-Sur/100091341392818/?_rdr" target="_blank"><img
+                        src="IMG/facebook.PNG" alt="Facebook"></a>
+                <a href="https://www.instagram.com/saboresdelsur.antas?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                    target="_blank"><img src="IMG/instagram.PNG" alt="Instagram"></a>
+                <a href="https://wa.link/cinyj6" target="_blank"><img src="IMG/whatssap.png" alt="WhatsApp"></a>
+            </div>
+            <p>&copy; 2024 Sabores del Sur | Desarrollado por Edgar</p>
+        </footer>
+</body>
+
+</html>

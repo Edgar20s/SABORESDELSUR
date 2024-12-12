@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es-Es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contacto.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="icon" href="IMG/logo.ico" type="image/x-icon">
+    <title>Sabores Del Sur</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img class="titulo" src="IMG/logo.png" alt="Logo">
+        </div>
+        <nav class="Indice">
+            <a href="proyectoinicio.html">Inicio</a>
+            <a href="proyectoplatostipicos.html">Platos Tipicos</a>
+            <a href="paginaconocenos.html">Conocenos</a>
+            <a href="menu.html">El Menú</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+        <h1 class="titulo-menu">ENCUENTRANOS EN:</h1>
+        <div class="mapa">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3175.5765733058706!2d-1.89416972444235!3d37.257752572120175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd7ad494e769e199%3A0x377f73c60916a783!2sSABORES%20DEL%20SUR!5e0!3m2!1ses!2ses!4v1733992028194!5m2!1ses!2ses"
+                width="650" height="350" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <HR>
+        </HR>
+        <h1 class="titulo-menu">HORARIOS:</h1>
+        <div class="Horarios">
+            <ul>
+                <li><span class="dias">Lunes a Viernes:</span> 9:00 AM - 10:00 PM</li>
+                <li><span class="dias">Sábado:</span> 10:00 AM - 11:00 PM</li>
+                <li><span class="dias">Domingo:</span> 11:00 AM - 8:00 PM</li>
+            </ul>
+        </div>
+        <hr>
+        <h1 class="titulo-menu">RESERVAS:</h1>
+        <main>
+            <section class="menu-description">
+                <h2>Disfruta de un menú único</h2>
+                <p>Combinamos ingredientes frescos y recetas tradicionales con un toque moderno, todo en un ambiente
+                    cálido
+                    y acogedor.</p>
+            </section>
+
+            <section class="occasion">
+                <h2>¿Tienes una ocasión especial?</h2>
+                <p>O simplemente quieres una experiencia culinaria inolvidable?</p>
+                <p>No lo pienses más, reserva tu mesa ahora y asegúrate de tener un lugar en nuestra casa.</p>
+            </section>
+
+            <section class="reservation-info">
+                <h3>Reserva fácil y rápido</h3>
+                <ul>
+                    <li>✨ Atención personalizada</li>
+                    <li>🕒 Horarios flexibles para tu comodidad</li>
+                    <li>🍴 Opciones especiales para grupos y eventos</li>
+                </ul>
+            </section>
+        </main>
+        <BR></BR>
+        <div class="formulario">
+            <h2>Reserva Tu Mesa</h2>
+            <form action="reservar" method="post">
+                <label for="nombre">Nombre y Apellidos:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+
+                <label for="fecha">Fecha:</label>
+                <input type="date" id="fecha" name="fecha" required>
+
+                <label for="hora">Hora:</label>
+                <input type="time" id="hora" name="hora" required>
+
+                <label for="mesa">Número de Mesa:</label>
+                <input type="number" id="mesa" name="mesa" placeholder="Ejemplo: 5" required>
+
+                <label for="comentario">Comentario:</label>
+                <textarea id="comentario" name="comentario" rows="4" placeholder="Comentarios opcionales..."></textarea>
+
+                <button type="submit">Reservar</button>
+            </form>
+        </div>
+        <audio id="audio-background" autoplay loop>
+            <source src="Audio/musica de fondo.mp3" type="audio/mp3">
+        </audio>
+        <script src="audio.js"></script>
+        <footer>
+            <p>📍 Dirección: N-340a, 04629 Antas, Almería</p>
+            <p>☎️ Teléfono: +34 614 16 24 85</p>
+            <p>⏰ Horarios: Lunes a Domingo, 12:00 PM - 10:00 PM</p>
+            <p>"Sabores que unen culturas, tradición que deleita el paladar."</p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/people/Sabores-del-Sur/100091341392818/?_rdr" target="_blank"><img
+                        src="IMG/facebook.PNG" alt="Facebook"></a>
+                <a href="https://www.instagram.com/saboresdelsur.antas?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                    target="_blank"><img src="IMG/instagram.PNG" alt="Instagram"></a>
+                <a href="https://wa.link/cinyj6" target="_blank"><img src="IMG/whatssap.png" alt="WhatsApp"></a>
+            </div>
+            <p>&copy; 2024 Sabores del Sur | Desarrollado por Edgar</p>
+        </footer>
+</body>
+
+</html>
